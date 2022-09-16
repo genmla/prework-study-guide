@@ -11,6 +11,7 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
@@ -50,10 +51,9 @@
         
         <h3>Three CSS Styles</h3>
 
-        <ul>
+          <ul>
        
           <li><strong>Three CSS Styles</strong></li>
-
 
             <ul>
               
@@ -64,6 +64,8 @@
               <li><strong>CSS External Style Sheets</strong>: made in separate file to apply to all HTML files in project, placed in header as external link</li>
 
             </ul>
+          
+          </ul>
 
         <h3>CSS Rule Components</h3>
           
@@ -87,25 +89,25 @@
 
           <h3>CSS Box Model</h3> 
 
-          <ul>
+            <ul>
           
             <li>Every HTML or CSS element is essentiall a box with the following properties:</li>
             
-            <ul>
+              <ul>
 
-              <li><strong>Margin:</strong>the space outside of the element</li>
+               <li><strong>Margin:</strong>the space outside of the element</li>
 
-              <li<strong>Border:</strong>the border around the content between the margin and the padding</li>
+               <li<strong>Border:</strong>the border around the content between the margin and the padding</li>
 
-              <li><strong>Padding:</strong>the space around the content inside the elment</li>
+               <li><strong>Padding:</strong>the space around the content inside the elment</li>
 
-              <li><strong>Content:</strong>the content inside an element</li>
+               <li><strong>Content:</strong>the content inside an element</li>
 
-            </ul>
+              </ul>
 
             <li>We were provided <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">this link wih more information on the CSS model.</a></li>
           
-          </ul>
+            </ul>
 
           <h3>Reference Links</h3>
 
@@ -116,49 +118,16 @@
               <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"> MDN Web Docs on CSS</a></li>
               
             </ul>
-         
-        </ul>
-          
-            <ul>
-              
-              <li>Every HTML or CSS element is essentially a box made up of the following:</li>
-            
-              <ul>
-
-                <li><strong>Margin:</strong> the space outside of the element</li>
-
-                <li<strong>Border:</strong> the border around the content between the margin and the padding</li>
-
-                <li><strong>Padding:</strong> the space around the content inside the elment</li>
-
-                <li><strong>Content:</strong> the content inside an element</li>
-
-              </ul>
-
-              <li>We were provided <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">this link wih more information on the CSS model.</a></li>
-
-            </ul>
-
-         </ul>
-
-         <h3>Reference Links</h3>
-
-         <ul>
-
-          <li><a href="https://htmlcolorcodes.com/">HTML Color Codes</a> are explained in more depth</li>
-
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs on CSS</a> contains information on more CSS properties to explore</li>
-         </ul>
-
+               
          <h3>Questions</h3>
 
-          <ul>
+            <ul>
 
-            <li>Do inline CSS styles overwrite CSS Internal Style sheets and CSS External Style Sheets?</li>
+              <li>Do inline CSS styles overwrite CSS Internal Style sheets and CSS External Style Sheets?</li>
 
-            <li>Is there a priority in CSS styles, regarding the above question about overwriting?</li>
+              <li>Is there a priority in CSS styles, regarding the above question about overwriting?</li>
 
-          </ul>
+            </ul>
 
       </section>
    
@@ -311,10 +280,104 @@
    
         <h2>JavaScript</h2>
 
+        <h3>Adding JavaScript to the HTML Doc</h3>
+
         <ul>
 
-          <li>Enter your JavaScript notes here</li>
+          <li>Add a javascript file to an HTML doc at the bottom, after the footer and before the closing body tag</li>
 
+          <li>While the CSS file is linked with the head element and the javascript file is linked with the body element</li>
+
+        </ul>
+
+        <h3>JavaScript Notes</h3>
+
+        <ul>
+
+          <li>JavaScript is read in order from left to right and top to bottom</li>
+
+          <li>Variables must be defined/assigned value before they are loged in the console</li>
+
+          <li>Declare variables with this formula: var [variable] = ["value"]</li>
+
+          <li>Arrays are groups of related data for large data sets</li>
+
+          <li>Declare arrays with this formula: var [variables] = ["value1" "value2" "value3" "value4" "valuen"]</li>
+          
+          <li>Values can be different types in an array (string, number, Boolean) Refer to the MDN on JavaScript Data types for additional information</li>
+
+          <li>Indices of arrays start at 0 and continue with whole numbers</li>
+
+          <li>Loops perform conditional logic on data in arrays</li>
+
+          <li>for loops perform specific tasks on data in array; you must know the variable's index and the array's length</li>
+
+          <li>for loops have three staments:</li>
+
+            <ul>
+
+              <li>starting point for the loop; to start at the beginning, make var x=0</li>
+
+              <li>condition for the loop</li>
+
+              <li>the formula determining the loop pattern</li>
+
+            </ul>
+
+          <li>Ex: 
+            <br>var [[variables]] = ["value1", "value2", "value3", "value4"];
+            <br>for(var x = 0; x < [variables].length; x++) {
+            <br> console.log([variables]][x]);
+            <br>}</li>
+        </ul>
+
+        <h3>Conditional Logic</h3>
+
+        <ul>
+
+          <li>If statements introduce decision-making into the code. If specified conditions are met, the following code will be executed:</li>
+
+          <li>Computer determines if If statements are "truthy," which sounds like a pranky, but okay</li>
+
+          <li>if (condition) {
+          <br>// block of code to be executed if condition is truthy
+          <br>}</li>
+
+          <li>If statements can also be falsy, believe it or not. Statements are falsy if they have the following values: 0, -0, On, "", null, undefined, NaN, or a Boolean data type with the value of false. All other values, including the Boolean value of true are considered truthy</li>
+
+          <li>we can add other if statements with "else if", as indicated in the example:</li>
+
+          <li>if (first condition) {
+          <br>// block of code to be executed if first condition is truthy
+          <br>} else if (second condition) {
+          <br>// block of code to be executed if second condition is truthy
+          <br>}</li>
+
+          <li>Remeber that the computer only eecutes the code in the curly brakcets of if statements that are truthy.</li>
+
+          <li>if (0) {
+          <br>console.log("I'm 0!")
+          <br>} else if (null) {
+          <br>console.log("I'm null!")
+          <br>} else if (true) {
+          <br>console.log("I'm true!")
+          <br>}</li>
+        
+          <li>In the above JaveScript example, the computer would only log the "I'm true!" message because (true) is the only truthy value; 0 and null are both falsy</li>
+      
+        </ul>
+
+        <h3>References</h3>
+
+        <ul>
+
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">MDN Web Docs on JavaScript Basics</a></li>
+
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">MDN Web Docs on JavaScript Data Types</a></li>
+
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Console/log">MDN Web Docs on Console Log</a></li>
+        
+          <li><a href="https://developer.mozilla.org/en-US/docs/Glossary/Truthy">MDN Web Docs on truthy</a></li>
         </ul>
 
       </section>
@@ -322,9 +385,15 @@
     </main>
 
     <footer>
+
       <p>I can code!</p>
+
     </footer>
+
+    <script src="./assets/script.js"></script>
+
   </body>
+
 </html>
 
 
