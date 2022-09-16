@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -12,30 +13,32 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-<<<<<<< HEAD
       <section class="card" id="html-section">
 
         <h2>HTML</h2>
 
-        <ul>
+        <h3>HTML Composition and Elements</h3>
+          <ul>
 
-          <li>The head element contains information about the webpage.</li>
+            <li>The head element contains information about the webpage.</li>
 
-          <li>The body element represents the visible content shown to the user.</li>
+            <li>The body element represents the visible content shown to the user.</li>
 
-          <li>Elements nested inside previous elements have a child-parent relationship. Nesting elemnents are the child elements.</li>
+            <li>Elements nested inside previous elements have a child-parent relationship. Nesting elements are the child elements.</li>
 
-          <li><strong>Questions:</strong>
+            <li>The difference between elements and tags: the element is the entire element from opening to end (including content?, etc.), the tag is only what appears in the angle brackets</li>
+          
+          </ul>
+
+        <h3>Questions</h3>
             
-            <ul>
+          <ul>
 
-              <li>Do child elements have a minimum of three?</li>
+            <li>Do child elements have a minimum of three?</li>
 
-              <li>Does a parent element need a minimum of three elements nesting inside?</li>
+            <li>Does a parent element need a minimum of three elements nesting inside?</li>
             
-            </ul>
-
-          <li>The difference between elements and tags: the element is the entire element from opening to end (including conent?, etc.), the tag is only what appears in the angle brackets</li>
+          </ul>
 
         </ul>
 
@@ -45,9 +48,7 @@
    
         <h2>CSS</h2>
         
-        <ul>
-       
-          <li><strong>Three CSS Styles</strong></li>
+        <h3>Three CSS Styles</h3>
 
             <ul>
               
@@ -58,8 +59,67 @@
               <li><strong>CSS External Style Sheets</strong>: made in separate file to apply to all HTML files in project, placed in header as external link</li>
 
             </ul>
+
+        <h3>CSS Rule Components</h3>
           
+            <ul>
+              
+              <li> [selector] {[property]:[value]; [property]:[value];}</li>
+
+              <li>(declaration is in brackets)</li>
+              
+              <li><strong>selector:</strong> defines the element or attributes to which rules or declarations apply</li>
+            
+              <li><strong>declaration:</strong> contains the property applied to the HTML doc and the value of the property. Ex, in "color:blue", "color" is the property and blue is the value</li>
+
+              <li>the asterisk is a wildcard selector which applies to all elements on the HTML file</li>
+
+              <li>selectors with . before them are class selectors, which we defined in our html file</li>
+
+            </ul>
+
+          <h3>CSS Box Model</h3> 
+          
+            <ul>
+              
+              <li>Every HTML or CSS element is essentially a box made up of the following:</li>
+            
+              <ul>
+
+                <li><strong>Margin:</strong> the space outside of the element</li>
+
+                <li<strong>Border:</strong> the border around the content between the margin and the padding</li>
+
+                <li><strong>Padding:</strong> the space around the content inside the elment</li>
+
+                <li><strong>Content:</strong> the content inside an element</li>
+
+              </ul>
+
+              <li>We were provided <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">this link wih more information on the CSS model.</a></li>
+
+            </ul>
+
          </ul>
+
+         <h3>Reference Links</h3>
+
+         <ul>
+
+          <li><a href="https://htmlcolorcodes.com/">HTML Color Codes</a> are explained in more depth</li>
+
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">MDN Web Docs on CSS</a> contains information on more CSS properties to explore</li>
+         </ul>
+
+         <h3>Questions</h3>
+
+          <ul>
+
+            <li>Do inline CSS styles overwrite CSS Internal Style sheets and CSS External Style Sheets?</li>
+
+            <li>Is there a priority in CSS styles, regarding the above question about overwriting?</li>
+
+          </ul>
 
       </section>
    
@@ -80,6 +140,7 @@
         <h3>GitHub Capabilities</h3>
 
         <ul>
+          
           <li><strong>Adding a repo in GitHub:</strong></li>
 
             <ul>
@@ -89,7 +150,7 @@
 
               <li>Fill out repository name, use only lower case letters and dashes for spaces</li>
 
-              <li>Make public to collaorate, or private to collaborate with only invited coders</li>
+              <li>Make public to collaborate, or private to collaborate with only invited coders</li>
 
               <li>Add a README file to give information on the project to other developers</li>
 
@@ -183,7 +244,7 @@
 
           <li>git commit -m "[commit message]": commits changes to current branch with message (-m) in quotes</li>
 
-          <li>git pull origin [branch]: make sure current branch is synched with base branch in GitHub. See further notes for compoents:</li>
+          <li>git pull origin [branch]: make sure current branch is synched with base branch in GitHub. See further notes for components:</li>
             
           <li>git push origin [branch]: push (modified) branch into remote GitHub branch</li>
               
@@ -191,7 +252,7 @@
               
               <li>git: identify git command</li>
               
-              <li>pull: recieve branch's modifications into local environment</li>
+              <li>pull: receive branch's modifications into local environment</li>
               
               <li>push: push modifications from local branch to remote branch</li>
                 
