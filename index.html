@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -12,7 +13,6 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-<<<<<<< HEAD
       <section class="card" id="html-section">
 
         <h2>HTML</h2>
@@ -45,20 +45,68 @@
    
         <h2>CSS</h2>
         
-        <ul>
+        <h3>Three CSS Styles</h3>
 
-          <li><strong>Three CSS Styles for Webpages</strong></li>
+            <ul>
+              
+              <li><strong>CSS inline</strong>: made to specific tags in specific HTML file, each tag has separate style attribute</li>
+
+              <li><strong>CSS Internal Style Sheets</strong>: made to header in HTML file, every indicated tage in body of HTML file affected</li>
+
+              <li><strong>CSS External Style Sheets</strong>: made in separate file to apply to all HTML files in project, placed in header as external link</li>
+
+            </ul>
+
+        <h3>CSS Rule Components</h3>
+          
+            <ul>
+              
+              <li> [selector] {[property]:[value]; [property]:[value];}</li>
+
+              <li>(declaration is in brackets)</li>
+              
+              <li><strong>selector:</strong> defines the element or attributes to which rules or declarations apply</li>
+            
+              <li><strong>declaration:</strong> contains the property applied to the HTML doc and the value of the property. Ex, in "color:blue", "color" is the property and blue is the value</li>
+
+              <li>the asterisk is a wildcard selector which applies to all elements on the HTML file</li>
+
+              <li>the . designates the selector as a class selector, remember that property in our HTML doc</li>
+
+            </ul>
+
+          <h3>CSS Box Model</h3> 
 
           <ul>
+          
+            <li>Every HTML or CSS element is essentiall a box with the following properties:</li>
             
-            <li><strong>CSS Inline:</strong> apply to a specific HTML tag, using style attribute to style a particular page element. Each inline style needs to be edited separately so they are less flexible with HTML docs.</li>
+            <ul>
 
-            <li><strong>CSS Internal Style Sheet:</strong> apply changes throughout an HTML doc, placed in header. All tags within the style attribute in the header are affected within an HTML doc</li>
+              <li><strong>Margin:</strong>the space outside of the element</li>
 
-            <li><strong>CSS External Style Sheet:</strong> separate file in which all style for all html docs on project are saved, making changes easier to HTML docs. CSS external sheets are linked in header in HTML doc "link rel="stylesheet" href="./assets/style.css"</li>
-            
+              <li<strong>Border:</strong>the border around the content between the margin and the padding</li>
+
+              <li><strong>Padding:</strong>the space around the content inside the elment</li>
+
+              <li><strong>Content:</strong>the content inside an element</li>
+
+            </ul>
+
+            <li>We were provided <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">this link wih more information on the CSS model.</a></li>
+          
           </ul>
 
+          <h3>Reference Links</h3>
+
+            <ul>
+
+              <li><a href="https://htmlcolorcodes.com/">HTML Colors Website</a></li>
+
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS"> MDN Web Docs on CSS</a></li>
+              
+            </ul>
+         
         </ul>
 
       </section>
@@ -219,10 +267,12 @@
 
       </section>
 
-     </main>
+    </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
   </body>
 </html>
+
+
